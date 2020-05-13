@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@300;400;500;700&family=Londrina+Outline&display=swap');
+
+body {
+    background-color: #F4F1DE;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h3,
+.navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.navbar .navbar-brand i {
+    color: rgb(102, 138, 120)
+}
+
+.navbar-custom {
+    background-color: rgba(224, 122, 95, 1);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-link {
+    color: #F4F1DE;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: rgb(202, 200, 189);
+}
+
+
+.navbar-custom .navbar-nav .nav-link {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(202, 200, 189);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-custom>.navbar-toggler {
+    background-color: #E07A5F;
+    border: none
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5');
+}
+
+.header {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/choppingwood.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, .7)
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: #E07A5F;
+}
+
+.description p {
+    color: #3D405B;
+    font-size: 20px;
+    width: 50%;
+    line-height: 2;
+}
+
+.description button {
+    border: 1px solid rgb(224, 122, 95);
+    background: rgba(224, 122, 95, .6);
+    color: #F4F1DE;
+    padding: .75rem;
+}
+
+.description button:hover {
+    border: 1px solid rgb(224, 122, 95);
+    background: rgba(224, 122, 95, 1);
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-secondary.dropdown-toggle {
+    border-color: rgb(224, 122, 95);
+    background-color: rgba(224, 122, 95, 1);
+}
+
+.fa-tree {
+    font-size: 2rem;
+}
+
+.about-header {
+    font-size: 3rem;
+}
+
+.number h1 {
+    position: absolute;
+    font-family: 'Londrina Outline', cursive;
+    font-size: 10rem;
+    color: rgb(242, 204, 143);
+}
+
+.left h1 {
+    top: -30%;
+    left: -5%;
+}
+
+.right h1 {
+    top: -30%;
+    right: 0%;
+}
+
+#products {
+    padding-bottom: 1rem;
+}
+
+#products {
+    background-color: rgba(51, 51, 51, .9);
+    color: #F4F1DE;
+}
+
+#products .product-title-small {
+    letter-spacing: .25rem;
+    font-size: .8rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    color: rgb(224, 122, 95);
+}
+
+.product-title-small:before {
+    position: absolute;
+    top: 11%;
+    left: 0%;
+    height: 1px;
+    width: 50px;
+    background: rgba(244, 241, 222, .3);
+    content: '';
+    z-index: 1;
+}
+
+.product-title {
+    font-size: 4rem;
+}
+
+#products .product-card {
+    border: solid 2px rgba(51, 51, 51, 8);
+    margin-top: 3rem;
+}
+
+#products .card-body {
+    background-color: #F4F1DE;
+    color: rgba(51, 51, 51, .9);
+}
+
+#products .card-body h5 {
+    font-weight: 700;
+}
+
+#products .card-body p {
+    font-weight: 300;
+}
+
+#products-btn {
+    margin-top: 25%;
+    border: 1px solid #F4F1DE;
+    color: #F4F1DE;
+}
+
+#products-btn:hover {
+    background: #F4F1DE;
+    border: none;
+    color: rgba(51, 51, 51, .9);
+}
+
+#reviews {
+    background: rgb(102, 138, 120);
+}
+
+.carousel-control-prev {
+    left: -30%;
+}
+
+.carousel-control-next {
+    right: -30%;
+}
+
+.carousel-indicators {
+    bottom: -75%;
+    border-radius: 50;
+}
+
+.carousel-indicators>li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(51, 51, 51, .9);
+}
+
+.carousel-indicators .active {
+    background-color: #F4F1DE;
+}
+
+.arrows {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.la-arrow-left,
+.la-arrow-right {
+    color: #F4F1DE;
+    font-size: 2rem;
+}
+
+#packages {
+    margin-top: 4rem;
+}
+
+#packages .packages-btn {
+    border-color: rgb(224, 122, 95);
+    color: rgb(224, 122, 95);
+
+}
+
+#packages .packages-btn:hover {
+    background-color: rgb(224, 122, 95);
+    color: #F4F1DE;
+}
+
+#packages .card-img-top {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
