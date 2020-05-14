@@ -58,6 +58,7 @@ h3,
 
 .header {
     height: 100vh;
+    width: 105%;
     min-height: 500px;
     background-image: url('../images/choppingwood.jpg');
     background-attachment: fixed;
@@ -74,21 +75,12 @@ h3,
     background: rgba(244, 244, 244, .7)
 }
 
-.description {
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
-}
-
 .description h1 {
     color: #E07A5F;
 }
 
 .description p {
     color: #3D405B;
-    font-size: 20px;
-    width: 50%;
     line-height: 2;
 }
 
@@ -119,10 +111,6 @@ h3,
     font-size: 2rem;
 }
 
-.about-header {
-    font-size: 3rem;
-}
-
 .number h1 {
     position: absolute;
     font-family: 'Londrina Outline', cursive;
@@ -141,10 +129,7 @@ h3,
 }
 
 #products {
-    padding-bottom: 1rem;
-}
-
-#products {
+    padding-bottom: 3rem;
     background-color: rgba(51, 51, 51, .9);
     color: #F4F1DE;
 }
@@ -166,10 +151,6 @@ h3,
     background: rgba(244, 241, 222, .3);
     content: '';
     z-index: 1;
-}
-
-.product-title {
-    font-size: 4rem;
 }
 
 #products .product-card {
@@ -245,6 +226,7 @@ h3,
 
 #packages {
     margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
 #packages .packages-btn {
@@ -258,8 +240,24 @@ h3,
     color: #F4F1DE;
 }
 
+
 #packages .card-img-top {
-    width: 100%;
-    height: 20vh;
-    object-fit: cover;
+    max-height: 13rem;
+}
+
+#footer {
+    padding-top: 2rem;
+    font-size: .75rem;
+    background: rgba(51, 51, 51, .9);
+    color: #F4F1DE;
+}
+
+#footer .btn {
+    font-size: 1rem;
+    color: #F4F1DE;
+}
+
+#footer a {
+    color: #F4F1DE;
+    font-size: .5rem;
 }

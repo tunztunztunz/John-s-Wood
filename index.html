@@ -15,7 +15,7 @@
 <body>
 
     <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
-        <a class="navbar-brand" id="brand" href="#">
+        <a class="navbar-brand" id="brand" data-value="home" href="#">
             <span class="d-lg-inline-block d-none">John's <i class="las la-tree"></i> Wood</span>
             <i class="las la-tree d-inline d-lg-none"></i>
         </a>
@@ -27,96 +27,113 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" data-value="about" href="#">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" data-value="products" href="#">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" data-value="pricing" href="#">Pricing</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <header class="header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="description">
-                <h1>40 years from forest to door.</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates dicta perferendis sint odit
-                    doloribus veritatis, temporibus optio possimus explicabo dolorem quasi ex quis quae. Molestias a
-                    facere ab reiciendis alias.</p>
-                <button class="btn btn-outline-secondary">Learn More</button>
+
+    <header class="header description w-100">
+        <div class="overlay w-100 h-100"></div>
+        <div class="container h-100 w-100">
+            <div class="row h-100 text-center">
+                <div class="col-12 my-auto">
+                    <h1>Firewood from forest to door.</h1>
+                    <p class="h5 col-md-8 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptates dicta
+                        perferendis
+                        sint odit
+                        doloribus veritatis, temporibus optio possimus explicabo dolorem quasi ex quis quae. Molestias a
+                        facere ab reiciendis alias.</p>
+                </div>
+            </div>
+            <div class="row h-100 ">
+                <div class="col-12 my-auto">
+
+                </div>
 
             </div>
+
+
+
+
+        </div>
         </div>
     </header>
+
     <div class="section about">
         <div class="container">
             <div class="section-title text-center my-5">
                 <h1 class="display-1">Our Process</h1>
             </div>
             <div class="row my-5">
-                <div class="col mr-5 ">
-                    <h3 class="about-header">We Chop It</h3>
+                <div class="col-12 col-lg mr-5 ">
+                    <h3 class="display-4">We Chop It</h3>
                     <p class="about-description text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Cumque,
                         doloremque magnam? Ea possimus
                         ipsam, tenetur consequuntur ipsum ab, repudiandae itaque accusamus nulla laborum error assumenda
                         totam, tempore aliquam quis. Assumenda.</p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg ">
                     <div class="embed-responsive embed-responsive-16by9">
                         <video autoplay loop muted>
                             <source src="./videos/choppingwood.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="number right">
-                        <h1>1</h1>
+                        <h1 class="d-none d-lg-inline">1</h1>
                     </div>
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col mr-5">
+                <div class="col-12 col-lg mr-5 order-last order-lg-1">
                     <div class="embed-responsive embed-responsive-16by9">
                         <video autoplay loop muted>
                             <source src="./videos/woodstack.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="number left">
-                        <h1>2</h1>
+                        <h1 class="d-none d-lg-inline">2</h1>
                     </div>
                 </div>
-                <div class="col">
-                    <h3 class="about-header">We Stack It</h3>
+                <div class="col-12 col-lg order-first order-lg-2">
+                    <h3 class="display-4">We Stack It</h3>
                     <p class="about-description text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Corporis doloribus quae ut pariatur natus
                         earum dolore ullam obcaecati error voluptate placeat, sequi recusandae, asperiores
                         necessitatibus
                         alias assumenda esse? Aspernatur, veniam.</p>
                 </div>
-                <div class="row mt-5 mb-4">
-                    <div class="col mr-5">
-                        <h3 class="about-header">You Burn It</h3>
-                        <p class="about-description text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Eaque, doloribus unde saepe deleniti
-                            nobis debitis iusto tempora consequatur ut rerum corporis id nihil consectetur magnam
-                            molestiae
-                            quasi recusandae eos dignissimos.</p>
+            </div>
+            <div class="row mt-5 mb-4">
+                <div class="col-12 col-lg mr-5">
+                    <h3 class="display-4">You Burn It</h3>
+                    <p class="about-description text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque, doloribus unde saepe deleniti
+                        nobis debitis iusto tempora consequatur ut rerum corporis id nihil consectetur magnam
+                        molestiae
+                        quasi recusandae eos dignissimos.</p>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video autoplay loop muted>
+                            <source src="./videos/campfire.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <video autoplay loop muted>
-                                <source src="./videos/campfire.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <div class="number right">
-                            <h1>3</h1>
-                        </div>
+                    <div class="number right">
+                        <h1 class="d-none d-lg-inline">3</h1>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="section w-100 d-lg-block d-none py-5" id="reviews">
@@ -191,9 +208,8 @@
                 <div class="col-lg-6 my-5">
                     <p class="row product-title-small">
                         What we offer</p>
-                    <h1 class="product-title">We can provide more
-                        <span class="row">than just wood</span>
-                    </h1>
+                    <h1 class="display-3">We can provide more</h1>
+                    <h1 class="display-3">than just wood</h1>
                     <div class="card product-card border-top-0 border-left-0 border-right-0 rounded">
                         <img class="card-img-top" src="./images/axe.jpg" alt="Card image cap of an axe in wood">
                         <div class="card-body">
@@ -231,48 +247,128 @@
             </div>
             <div class="row d-flex mx-auto">
                 <div class="col-md-12 col-lg-4">
-                    <div class="card border-0 bg-transparent">
-                        <img class="card-img-top" src="./images/smallfire.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">The Grill Package</h5>
+                    <div class="card border-0 bg-transparent mb-md-5">
+                        <img class="card-img-top" src="./images/bbqfire.svg" alt="Card image cap">
+                        <div class="card-body mt-4">
+                            <h6>2-bundles</h6>
+                            <h5 class="card-title "><strong>The Griller</strong></strong></h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
                                 dolore recusandae cumque ad asperiores, ipsa distinctio.</p>
-                            <a href="#"
-                                class="btn btn-outline-secondary packages-btn  mx-auto align-self-center py-2 px-2">Learn
-                                More</a>
+                            <div class="row pricing">
+                                <div class="col-6 border-right border-top text-left pt-3">
+                                    <p><strong class="h6">$24.99</strong> per bundle</p>
+                                    <p><strong class="h6">$9.99</strong> shipping</p>
+                                </div>
+                                <div class="col-6  border-top text-right pt-3">
+                                    <p><strong class="h5">$59.97</strong></p>
+                                    <p>monthly total!</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                                    <a href="#" class="btn btn-outline-secondary packages-btn py-2 px-2 w-100">Learn
+                                        More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <div class="card border-0 bg-transparent">
-                        <img class="card-img-top" src="./images/mediumfire.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">The Weekend Burner</h5>
+                    <div class="card border-0 bg-transparent mb-md-5">
+                        <img class="card-img-top" src="./images/tentfire.svg" alt="Card image cap">
+                        <div class="card-body mt-4">
+                            <h6>3-bundles</h6>
+                            <h5 class="card-title "><strong>Weekend Burner</strong></strong></h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
                                 dolore recusandae cumque ad asperiores, ipsa distinctio.
                             </p>
-                            <a href="#"
-                                class="btn btn-outline-secondary packages-btn  mx-auto align-self-center py-2 px-2">Learn
-                                More</a>
+                            <div class="row pricing">
+                                <div class="col-6 border-right border-top text-left pt-3">
+                                    <p><strong class="h6">$24.99</strong> per bundle</p>
+                                    <p><strong class="h6">FREE</strong> shipping</p>
+                                </div>
+                                <div class="col-6  border-top text-right pt-3">
+                                    <p><strong class="h5">$74.97</strong></p>
+                                    <p>monthly total!</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                                    <a href="#" class="btn btn-outline-secondary packages-btn py-2 px-2 w-100">Learn
+                                        More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <div class="card border-0  bg-transparent">
-                        <img class="card-img-top" src="./images/bigfire.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">The Pyromaniac</h5>
+                    <div class="card  border-0 bg-transparent">
+                        <img class="card-img-top" src="./images/xfilesfire.svg" alt="Card image cap">
+                        <div class="card-body mt-4 mb-md-5">
+                            <h6>6-bundles</h6>
+                            <h5 class="card-title "><strong>The Pyromaniac</strong></strong></h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
                                 dolore recusandae cumque ad asperiores, ipsa distinctio.</p>
-                            <a href="#"
-                                class="btn btn-outline-secondary packages-btn mx-auto align-self-center py-2 px-2">Learn
-                                More</a>
+                            <div class="row pricing">
+                                <div class="col-6 border-right border-top text-left pt-3">
+                                    <p><strong class="h6">$20.99</strong> per bundle</p>
+                                    <p><strong class="h6">FREE</strong> shipping</p>
+                                </div>
+                                <div class="col-6  border-top text-right pt-3">
+                                    <p><strong class="h5">$125.94</strong></p>
+                                    <p>monthly total!</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                                    <a href="#" class="btn btn-outline-secondary packages-btn py-2 px-2 w-100">Learn
+                                        More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-12 text-uppercase mt-2 text-center">
+                    <p>John's Wood</p>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-decoration-none">Students</a></li>
+                        <li><a href="" class="text-decoration-none">Blog</a></li>
+                        <li><a href="" class="text-decoration-none">Local Classes</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-12 text-uppercase mt-2 text-center">
+                    <p>Our Company</p>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-decoration-none">Careers</a><span
+                                class="badge badge-success ml-3 d-sm-none">We're
+                                Hiring!</span></li>
+                        <li><a href="" class="text-decoration-none">Press</a></li>
+                        <li><a href="" class="text-decoration-none">Service Area</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-12 text-uppercase mt-2 text-center">
+                    <p>Contact Us</p>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-decoration-none">Help Center & FAQ</a></li>
+                        <li><a href="" class="text-decoration-none">Affiliate Program</a></li>
+                        <li><a href="" class="text-decoration-none">Events</a></li>
+                        <li><a href="" class="text-decoration-none">Personal Information</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-uppercase text-right d-none d-lg-inline">
+                    <a href="#" class="btn btn-outline-secondary packages-btn py-2 px-2">Learn
+                        More</a>
+                </div>
+            </div>
+    </footer>
+
 
 
 
@@ -297,6 +393,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="./js/script.js"></script>
-</body>
 
 </html>
+</body>
