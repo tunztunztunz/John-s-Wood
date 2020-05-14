@@ -18,7 +18,9 @@ h3,
 }
 
 .navbar-custom {
+    opacity: 1;
     background-color: rgba(224, 122, 95, 1);
+    transition: opacity .5s ease-in-out;
 }
 
 .navbar-custom .navbar-brand,
@@ -54,6 +56,10 @@ h3,
 
 .navbar .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5');
+}
+
+.hide {
+    opacity: 0;
 }
 
 .header {
